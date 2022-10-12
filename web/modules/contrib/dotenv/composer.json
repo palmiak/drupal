@@ -1,0 +1,16 @@
+{
+    "name": "drupal/dotenv",
+    "type": "drupal-module",
+    "description": "Integrates the Symfony Dotenv component with Drupal",
+    "license": "MIT",
+    "require": {
+        "symfony/dotenv": "^5.4"
+    },
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^9 || ^10 || ^11"
+            }
+        }
+    }
+}
